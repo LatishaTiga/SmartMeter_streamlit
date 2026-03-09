@@ -10,11 +10,11 @@ st.set_page_config(layout="wide")
 # Paths
 # ------------------------------------------------
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
+RESULTS = ROOT / "results"
 
-HIST_PATH = ROOT / "clean_50_meters_with_fft_clusters_named.parquet"
+HIST_PATH = RESULTS / "clean_50_meters_with_fft_clusters_named.parquet"
 
-RESULTS = Path(__file__).resolve().parent / "results"
 
 DEEPAR_FORECAST = RESULTS / "forecast_deepar.parquet"
 PATCH_FORECAST = RESULTS / "forecast_patchtst.parquet"
