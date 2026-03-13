@@ -2,8 +2,4 @@ streamlit
 pandas
 numpy
 plotly
-scikit-learn
-torch
-pytorch-forecasting
-lightning
-pyarrow==15.0.2
+pyarrow
