@@ -6,3 +6,4 @@ scikit-learn
 torch
 pytorch-forecasting
 lightning
+pyarrow==15.0.2
